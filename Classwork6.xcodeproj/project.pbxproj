@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BF9DC2924ACE5EA0013988D /* MarvelLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BF9DC2524ACE5EA0013988D /* MarvelLogo.jpg */; };
+		0BF9DC2A24ACE5EA0013988D /* DC_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF9DC2624ACE5EA0013988D /* DC_Logo.png */; };
+		0BF9DC2B24ACE5EA0013988D /* moviesPosters in Resources */ = {isa = PBXBuildFile; fileRef = 0BF9DC2724ACE5EA0013988D /* moviesPosters */; };
+		0BF9DC2C24ACE5EA0013988D /* Actors in Resources */ = {isa = PBXBuildFile; fileRef = 0BF9DC2824ACE5EA0013988D /* Actors */; };
 		9F560D9C2492AFD3000E581A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F560D9B2492AFD3000E581A /* AppDelegate.swift */; };
 		9F560D9E2492AFD3000E581A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F560D9D2492AFD3000E581A /* SceneDelegate.swift */; };
 		9F560DA32492AFD3000E581A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F560DA12492AFD3000E581A /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BF9DC2524ACE5EA0013988D /* MarvelLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MarvelLogo.jpg; path = ../../../../../Downloads/MovieAppAssets/MarvelLogo.jpg; sourceTree = "<group>"; };
+		0BF9DC2624ACE5EA0013988D /* DC_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DC_Logo.png; path = ../../../../../Downloads/MovieAppAssets/DC_Logo.png; sourceTree = "<group>"; };
+		0BF9DC2724ACE5EA0013988D /* moviesPosters */ = {isa = PBXFileReference; lastKnownFileType = folder; name = moviesPosters; path = ../../../../../Downloads/MovieAppAssets/moviesPosters; sourceTree = "<group>"; };
+		0BF9DC2824ACE5EA0013988D /* Actors */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Actors; path = ../../../../../Downloads/MovieAppAssets/Actors; sourceTree = "<group>"; };
 		9F560D982492AFD3000E581A /* Classwork6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Classwork6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F560D9B2492AFD3000E581A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F560D9D2492AFD3000E581A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +69,10 @@
 				9F560DB324947479000E581A /* MoviesDataModel.swift */,
 				9F560DA12492AFD3000E581A /* Main.storyboard */,
 				9F560DA42492AFD4000E581A /* Assets.xcassets */,
+				0BF9DC2824ACE5EA0013988D /* Actors */,
+				0BF9DC2624ACE5EA0013988D /* DC_Logo.png */,
+				0BF9DC2524ACE5EA0013988D /* MarvelLogo.jpg */,
+				0BF9DC2724ACE5EA0013988D /* moviesPosters */,
 				9F560DA62492AFD4000E581A /* LaunchScreen.storyboard */,
 				9F560DA92492AFD4000E581A /* Info.plist */,
 			);
@@ -125,9 +137,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF9DC2C24ACE5EA0013988D /* Actors in Resources */,
 				9F560DA82492AFD4000E581A /* LaunchScreen.storyboard in Resources */,
+				0BF9DC2924ACE5EA0013988D /* MarvelLogo.jpg in Resources */,
 				9F560DA52492AFD4000E581A /* Assets.xcassets in Resources */,
 				9F560DA32492AFD3000E581A /* Main.storyboard in Resources */,
+				0BF9DC2B24ACE5EA0013988D /* moviesPosters in Resources */,
+				0BF9DC2A24ACE5EA0013988D /* DC_Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
