@@ -11,7 +11,7 @@ import Foundation
 
 
 struct Movie{
-    var movieName: String = ""
+    var movieName: String 
     var movieReleaseDate: Int
     var actors: [String]
     var rating: Double
